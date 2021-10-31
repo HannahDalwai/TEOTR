@@ -37,6 +37,21 @@ align-items: center;
 .sidebar #btn{
     position: absolute;
     color: mintcream;
-    
+    left: 90%;
+    top: 6px;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    transform:translateX(-50%);
+}
+.sidebar ul{
+    margin-top: 20px;
+}
+.sidebar ul li{
 
+
+ height: ;   
+ list-style: none;
 }
