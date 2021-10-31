@@ -62,4 +62,41 @@ color: whitesmoke;
 display: flex;
 align-items: center;
 text-decoration: none;
+transition: all 0.4s ease;
+border-radius: 12px;
+}
+.sidebar ul li a:hover{
+background-color: #449798 ;
+color: black;
+}
+.sidebar ul li a i{
+    height: 50px;
+min-width: 50px;
+border-radius: 12px;
+line-height: 50px;
+text-align: center;
+}
+.sidebar .profile_content{
+    position: absolute;
+    color: whitesmoke;
+    bottom: 0px;
+    left: 0px;
+}
+.sidebar .profile_content .profile{
+    position: relative;
+    padding: 10px 6px;
+    height: 60px;
+}
+.profile_content .profile .profile_details{
+    display: flex;
+    align-items: center;
+}
+.profile .profile_details img{
+    height: 45px;
+    width: 45px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.profile .profile_details .name_job{
+    
 }
