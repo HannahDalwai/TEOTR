@@ -1,0 +1,12 @@
+.home_content{
+    position: absolute;
+    height: 100%;
+    width: calc(100% - 240px);
+    left: 240px;
+}
+.home_content .text{
+    font-size: 25px;
+    font-weight: 500;
+    color: darkcyan;
+    margin: 12px;
+}

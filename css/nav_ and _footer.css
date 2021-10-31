@@ -18,6 +18,10 @@ background-color: #008080;
 top: 0%;
 left: 0%;
 padding: 6px 14px;
+transition: all 0.5s ease;
+}
+.sidebar .active{
+    width: 240px;
 }
 .sidebar .logo_content .logo{
 color: whitesmoke;
@@ -26,6 +30,7 @@ height: 50px;
 width: 100%;
 align-items: center;
 }
+.sidebar .active .logo_content .logo
 .logo_content .logo i{
     font-size: 28px;
     margin-right: 5px;
@@ -81,6 +86,7 @@ text-align: center;
     color: whitesmoke;
     bottom: 0px;
     left: 0px;
+    width: 100%;
 }
 .sidebar .profile_content .profile{
     position: relative;
@@ -92,11 +98,20 @@ text-align: center;
     align-items: center;
 }
 .profile .profile_details img{
-    height: 45px;
-    width: 45px;
+    height: 60px;
+    width: 60px;
     object-fit: cover;
     border-radius: 50%;
+    margin-top: 100px;
 }
 .profile .profile_details .name_job{
-    
+    margin-right: 10px;
 }
+.profile .profile_details .name{
+    font-size: 15px;
+    font-weight: 400;
+}
+.profile .profile_details .job{
+    font-size: 12px;
+}
+.sidebar ul li .tooltip
