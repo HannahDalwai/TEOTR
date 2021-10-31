@@ -114,4 +114,25 @@ text-align: center;
 .profile .profile_details .job{
     font-size: 12px;
 }
-.sidebar ul li .tooltip
+.sidebar ul li .tooltip{
+    position: absolute;
+    left: 122px;
+    top: 0;
+    transform: translateY(-50);
+    border-radius: 6px;
+    line-height: 35px;
+    text-align: center;
+    height: 35px;
+    width: 122px;
+    background:#C8AD7F;
+    box-shadow: 0 5px 10px rgb(0,0, 0.2);
+    transition: 0s;
+    opacity: 0;
+    pointer-events: none;
+}
+.sidebar ul li:hover .tooltip{
+    top: 50%;
+    transition: all o.5s ease;
+    opacity: 1;
+
+}
