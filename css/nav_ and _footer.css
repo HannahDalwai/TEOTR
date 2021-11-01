@@ -80,6 +80,7 @@ align-items: center;
 text-decoration: none;
 transition: all 0.4s ease;
 border-radius: 12px;
+white-space: nowrap;
 }
 .sidebar ul li a:hover{
 background-color: #449798 ;
@@ -107,6 +108,11 @@ text-align: center;
 .profile_content .profile .profile_details{
     display: flex;
     align-items: center;
+    opacity: 0;
+    pointer-events: none;
+}
+.sidebar .active  .profile .profile_details{
+    opacity:1 ;
 }
 .profile .profile_details img{
     height: 60px;
@@ -132,7 +138,7 @@ text-align: center;
     position: absolute;
     left: 122px;
     top: 0;
-    transform: translateY(-50);
+    transform: translateY(-50 , -50%);
     border-radius: 6px;
     line-height: 35px;
     text-align: center;
@@ -160,4 +166,8 @@ text-align: center;
 }
 .sidebar .active{
     width: 240px;
+}
+.sidebar.active ~ .home_content{
+    width: calc(100% - 240px);
+    left: 240px;
 }
