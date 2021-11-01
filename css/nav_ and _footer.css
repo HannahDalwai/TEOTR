@@ -38,6 +38,7 @@ pointer-events: none;
 }
 .sidebar .active #btn{
 left: 90%;
+transition: 0.5s ease;
 }
 .logo_content .logo i{
     font-size: 28px;
@@ -104,15 +105,19 @@ text-align: center;
     position: relative;
     padding: 10px 6px;
     height: 60px;
+    background: whitesmoke;
+    transition: 0.4s ease;
 }
 .profile_content .profile .profile_details{
     display: flex;
     align-items: center;
     opacity: 0;
     pointer-events: none;
+    white-space: nowrap;
 }
 .sidebar .active  .profile .profile_details{
     opacity:1 ;
+    pointer-events: auto;
 }
 .profile .profile_details img{
     height: 60px;
@@ -153,11 +158,12 @@ text-align: center;
 }
 .sidebar .active .links_name{
     opacity: 1;
-    pointer pointer-events: auto;
+     pointer-events: auto;
+    transition: 0.5s ease;
 }
 .sidebar .links_name{
     opacity: 0;
-    pointer pointer-events: none;
+     pointer-events: none;
 }
 .sidebar ul li:hover .tooltip{
     top: 50%;
@@ -167,7 +173,6 @@ text-align: center;
 .sidebar .active{
     width: 240px;
 }
-.sidebar.active ~ .home_content{
-    width: calc(100% - 240px);
-    left: 240px;
+.sidebar .active .profile .profile_details{
+    background: none;
 }
