@@ -13,7 +13,7 @@ body{
 .sidebar{
     position: fixed;
     height: 100%;
-    width: 24opx;
+    width: 78px;
 background-color: #008080;
 top: 0%;
 left: 0%;
@@ -23,14 +23,22 @@ transition: all 0.5s ease;
 .sidebar .active{
     width: 240px;
 }
+.sidebar .active .logo_content .logo{
+    opacity: 1;
+    pointer-events: none;
+}
 .sidebar .logo_content .logo{
 color: whitesmoke;
 display: flex;
 height: 50px;
 width: 100%;
 align-items: center;
+opacity: 0;
+pointer-events: none;
 }
-.sidebar .active .logo_content .logo
+.sidebar .active #btn{
+left: 90%;
+}
 .logo_content .logo i{
     font-size: 28px;
     margin-right: 5px;
@@ -42,7 +50,7 @@ align-items: center;
 .sidebar #btn{
     position: absolute;
     color: mintcream;
-    left: 90%;
+    left: 50%;
     top: 6px;
     font-size: 20px;
     height: 50px;
@@ -50,6 +58,9 @@ align-items: center;
     text-align: center;
     line-height: 50px;
     transform:translateX(-50%);
+}
+.sidebar .active ul li .tooltip{
+display: none;
 }
 .sidebar ul{
     margin-top: 20px;
@@ -103,6 +114,9 @@ text-align: center;
     object-fit: cover;
     border-radius: 50%;
     margin-top: 100px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #C8AD7F;
 }
 .profile .profile_details .name_job{
     margin-right: 10px;
@@ -129,10 +143,21 @@ text-align: center;
     transition: 0s;
     opacity: 0;
     pointer-events: none;
+    display: block;
+}
+.sidebar .active .links_name{
+    opacity: 1;
+    pointer pointer-events: auto;
+}
+.sidebar .links_name{
+    opacity: 0;
+    pointer pointer-events: none;
 }
 .sidebar ul li:hover .tooltip{
     top: 50%;
     transition: all o.5s ease;
     opacity: 1;
-
+}
+.sidebar .active{
+    width: 240px;
 }
