@@ -6,6 +6,7 @@
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/nav_ and _footer.css">
     <link rel="icon" href="image/289617_fire_flame_match_icon.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="css/about.css">
 </head>
 <body>
     <div class="sidebar">
@@ -64,7 +65,17 @@
             </div>
           </div>
         </div>
+      </div><!-- end of nav -->
+      <div class="home_content">
+        <div class="text">About Me </div>
       </div>
-      <!-- end of nav -->
+      <script>
+        let btn = document.querySelector("#btn");
+        let sidebar = document.querySelector(".sidebar");
+        
+        btn.onclick = function(){
+          sidebar.classList.toggle("active");
+        }
+      </script>
 </body>
 </html>

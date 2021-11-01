@@ -14,18 +14,23 @@ body{
     position: fixed;
     height: 100%;
     width: 78px;
-background-color: #008080;
-top: 0%;
-left: 0%;
-padding: 6px 14px;
-transition: all 0.5s ease;
+    background-color: #008080;
+    top: 0%;
+    left: 0%;
+    padding: 6px 14px;
+    transition: all 0.5s ease;
 }
 .sidebar .active{
     width: 240px;
 }
 .sidebar .active .logo_content .logo{
+    color: whitesmoke;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
     opacity: 1;
-    pointer-events: none;
+    pointer-events: auto;
 }
 .sidebar .logo_content .logo{
 color: whitesmoke;
@@ -33,10 +38,10 @@ display: flex;
 height: 50px;
 width: 100%;
 align-items: center;
-opacity: 0;
+opacity:0 ;
 pointer-events: none;
 }
-.sidebar .active #btn{
+.sidebar .active  #btn{
 left: 90%;
 transition: 0.5s ease;
 }
@@ -48,7 +53,7 @@ transition: 0.5s ease;
     font-size: 20px;
     font-weight: 400;
 }
-.sidebar #btn{
+.sidebar  #btn{
     position: absolute;
     color: mintcream;
     left: 50%;
