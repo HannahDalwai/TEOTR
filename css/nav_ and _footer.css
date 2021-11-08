@@ -120,7 +120,7 @@ text-align: center;
     pointer-events: none;
     white-space: nowrap;
 }
-.sidebar .active  .profile .profile_details{
+.sidebar.active.profile .profile_details{
     opacity:1 ;
     pointer-events: auto;
 }
@@ -164,12 +164,12 @@ text-align: center;
 .sidebar.active.links_name{
     opacity: 1;
      pointer-events: auto;
-    /* transition: 0.5s ease; */
+    transition: 0.5s ease;
 
 }
 .sidebar .links_name{
-    /* opacity: 0;
-     pointer-events: none; */
+    opacity: 0;
+     pointer-events: none;
 }
 .sidebar ul li:hover .tooltip{
     top: 50%;
