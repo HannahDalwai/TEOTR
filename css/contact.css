@@ -3,15 +3,34 @@
     height: 100%;
     width: calc(100% - 74px);
     left: 74px;
-    transition: 0.5s ease;
+    transition: 0.5s ease; 
 }
 .home_content .text{
     font-size: 25px;
     font-weight: 500;
-    color: darkcyan;
+    color:darkcyan;
     margin: 12px;
+    font-family: 'Titillium Web', sans-serif;
 }
 .sidebar.active ~ .home_content{
     width: calc(100% - 240px);
     left: 240px;
 }
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
+body{
+display: flex;
+height: 100vh;
+justify-content: center;
+align-items: center;
+background: linear-gradient(white,darkcyan);
+padding: 10px;
+}
+.container{
+  max-width: 700px;
+  width: 100%;
+  background: white ;
+  padding: 25px 30px;
+  border-radius: 5px;
+  
+    }
