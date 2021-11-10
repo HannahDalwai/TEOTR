@@ -34,3 +34,44 @@ padding: 10px;
   border-radius: 5px;
   
     }
+.container .title{
+ font-size: 25px;   
+ font-weight: 500;
+ position: relative;
+}
+.container .title::before{
+    content:'';
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: indigo;
+}
+.container form .user-details{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+form .user-details .input-box{
+width: calc(100% / 2 - 20px);
+margin: 20px 0 12px 0;
+}
+form .user-details .input-box input{
+height: 45px;
+width: 100%;
+outline: none;
+border-radius: 5px;
+}
+.user-details .input-box .details{
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+
+}
+
+
+
+
+
+
