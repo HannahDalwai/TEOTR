@@ -165,7 +165,11 @@ text-align: center;
     opacity: 1;
      pointer-events: auto;
     transition: 0.5s ease;
+<<<<<<< HEAD
+    background: #008080;
+=======
 
+>>>>>>> 891e856fa24d24108afba735f5725150799fc7f3
 }
 .sidebar .links_name{
     opacity: 0;
@@ -176,7 +180,14 @@ text-align: center;
     transition: all o.5s ease;
     opacity: 1;
 }
+<<<<<<< HEAD
+.sidebar .active{
+    width: 240px;
+}
+/* .sidebar .active .profile .profile_details{
+=======
 
 .sidebar .active .profile .profile_details{
+>>>>>>> 891e856fa24d24108afba735f5725150799fc7f3
     background: none;
-}
+} */
