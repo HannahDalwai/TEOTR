@@ -9,6 +9,40 @@
     <link rel="icon" href="image/289617_fire_flame_match_icon.png" type="image/gif" sizes="16x16">
   </head>
   <body>
+    <!-- navbar -->
+    <nav>
+      <div class="container-fluid menu-header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="h2 text-right mt-2">SideBar Slide Menu</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="drawer" id="menuDrawer">
+        <div class="drawer-header">
+          <h5 class="pl-3">Menu</h5>
+        </div>
+        <div class="menu-container py-3">
+          <a class="menu-item"href="#"><i class="fas fa-th-large mr-3"></i>Dashboard</a>
+          <a class="menu-item" href="#"><i class="fas fa-user mr-3"></i>Account</a>
+          <div class="divider"></div>
+          <a class="menu-item" href="#"><i class="fas fa-box mr-3"></i>Products</a>
+          <a class="menu-item" href="#"><i class="fas fa-store-alt mr-3"></i>Stores</a>
+          <a class="menu-item" href="#"><i class="fas fa-tags mr-3"></i>Categories</a>
+          <div class="divider"></div>
+          <a class="menu-item" href="#"><i class="fas fa-tools mr-3"></i>Settings</a>
+          
+        </div>
+      </div>
+      
+      <button id="menuBtn" class="btn shadow-sml menu-button">
+        <i id="menuIcon" class="fas fa-bars"></i>
+      </button>
+      <div class="content-veil" id="contentVeil"></div>
+    </nav>
+    <!-- landingPage -->
     <header class="header">
       <div class="brand-box">
         <span class="brand">Example Brand</span>
@@ -22,5 +56,6 @@
         <a href="#" class="btn btn-white btn-animated">Discover our tours</a>
       </div>
     </header>
+    <script src="script.js"></script>
   </body>
 </html>
