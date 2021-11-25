@@ -2,12 +2,11 @@
 <html>
   <head>
     <title>Hannah</title>
-    <!-- Boxicon con link -->
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/nav_ and _footer.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/about.css">
-    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/buttonsAnimatio.css">
     <link rel="stylesheet" href="css/workandedu.css">
     <link rel="stylesheet" href="css/portfolio.css">
     <link rel="stylesheet" href="css/testimonial.css">
@@ -15,22 +14,19 @@
     <link rel="stylesheet" href="css/sections.css">
     <link rel="icon" href="image/289617_fire_flame_match_icon.png" type="image/gif" sizes="16x16">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    
-
-
   </head>
   <body>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container-fluid">
-          <a class="navbar-brand" href="#">Hannah Dalwai</a>
+          <a class="navbar-brand" href="#landpage">logo</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav nav nav-pills" >
               <li class="nav-item ">
-                  <a class="nav-link " href="#home">Home</a>
+                  <a class="nav-link " href="#landpage">Home</a>
                   </li>
                   <li class="nav-item">
                   <a class="nav-link" href="#about">About</a>
@@ -51,16 +47,12 @@
    <!-- landingPage -->
    <section id="landPage">
     <header class="header">
-      <div class="brand-box">
-        <span class="brand">Example Brand</span>
-      </div>
-      
       <div class="text-box">
         <h1 class="heading-primary">
-          <span class="heading-primary-main">Heading Primary Main</span>
-          <span class="heading-primary-sub">The secondary heading</span>
+          <span class="heading-primary-main">Hannah Dalwai</span>
+          <span class="heading-primary-sub">Aspiring fullstack developer</span>
         </h1>
-        <button id="button">Click on me</button>
+        <button id="button">View CV</button>
       </div>
     </header>
   </section>
@@ -85,6 +77,22 @@
       </div>
  </div>
 </div> 
+<!-- ---header---- -->
+<div class="patterns">
+  <svg width="100%" height="100%">
+    <defs>
+        
+        <style>
+     @import url("https://fonts.googleapis.com/css?  family=Lora:400,400i,700,700i");
+   </style>
+    </defs>     
+    <rect x="0" y="0" width="100%" height="100%" fill="url(#polka-dots)"> </rect>
+ <text x="50%" y="60%"  text-anchor="middle"  >
+   Gracias
+ </text>
+ </svg>
+</div>
+ 
   <!-- skills -->
   <div id="skillsContainer" class="container">
       <div class="row">
@@ -294,7 +302,20 @@
 
 <!-- portfolio -->
 <section id="portfolio" >
-
+<!-- Carousel -->
+<div id="carousel">
+  <!-- Carousel Container -->
+  <div id="carousel-container"></div>
+  <!-- Carousel Bullets -->
+  <div id="carousel-bullets"></div>
+  <!-- Carousel Buttons -->
+  <button id="carousel-left" onclick="changeSlide(-1)">
+    <i class="fas fa-angle-left"></i>
+  </button>
+  <button id="carousel-right" onclick="changeSlide(1)">
+    <i class="fas fa-angle-right"></i>
+  </button>
+</div>
 </section>
 <!-- testimonials -->
 <section id="testimonials" >
@@ -390,7 +411,8 @@ class="d-flex justify-content-center justify-content-lg-between p-4 border-botto
 </div>
 <!-- Copyright -->
 </footer>
-    <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="JavaScript/script.js"></script>
+    <script src="JavaScript/projects.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ja@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>

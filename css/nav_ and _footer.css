@@ -7,10 +7,10 @@
   display: flex;
   list-style-type: none;
   flex-direction: column;
-  background: pink;
+  background:#3D0459;
   position: fixed;
   top: -100%;
-  /*   left: -100%; */
+    left: -100%;
   width: 100vw;
   height: 100vh;
   justify-content: center;
@@ -23,6 +23,8 @@
 .navbar-links.active {
   top: 0;
   left: 0;
+  color: #3D0459;
+  background-color: gray;
 }
 .navbar-button {
   position: fixed;
@@ -34,7 +36,5 @@
   border: none;
   outline: none;
   padding: 20px;
+  
 }
-.landing {
-  height: 100vh;
-  background: yellow;
