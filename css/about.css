@@ -1,3 +1,12 @@
+ #profilePicture{
+  border-radius: 50%;
+  color: gray;
+  width: 250px;
+  height: 200px;
+  opacity: 0;
+}
+
+
 /* Skills */
 
 .container{

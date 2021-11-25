@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/nav_ and _footer.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/buttons.css">
     <link rel="stylesheet" href="css/workandedu.css">
     <link rel="stylesheet" href="css/portfolio.css">
     <link rel="stylesheet" href="css/testimonial.css">
@@ -20,7 +21,33 @@
   </head>
   <body>
     <!-- navbar -->
-  
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="#">Hannah Dalwai</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav nav nav-pills" >
+              <li class="nav-item ">
+                  <a class="nav-link " href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link" href="#portfolio">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link" href="#testimonials">Testimonials</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                  </li>  
+          </ul>
+          </div>
+      </div>
+      </nav> 
    <!-- landingPage -->
    <section id="landPage">
     <header class="header">
@@ -33,7 +60,7 @@
           <span class="heading-primary-main">Heading Primary Main</span>
           <span class="heading-primary-sub">The secondary heading</span>
         </h1>
-        <a href="#" class="btn btn-white btn-animated">Discover our tours</a>
+        <button id="button">Click on me</button>
       </div>
     </header>
   </section>
@@ -54,7 +81,7 @@
           <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
       </div>
       <div class="col-lg-6 col-sm-12 text-center d-md-block">
-          <img class="img-fluid" src="image/IMG_20211027_172001.jpg" alt="">
+          <img id="profilePicture" class="img-fluid" src="image/hannah.jpg" alt="">
       </div>
  </div>
 </div> 
