@@ -47,7 +47,7 @@ body * {
   z-index: 13;
   width: 243.33333333333334px;
   height: 243.33333333333334px;
-  background-color: #392338;
+  /* background-color: #392338; */
   overflow: hidden;
 }
 .menu__active {
@@ -108,15 +108,15 @@ body * {
 .arrow {
   width: 20px;
   height: 20px;
-  border-right: 6.666666666666667px solid #fff;
-  border-top: 6.666666666666667px solid #fff;
+  border-right: 6.666666666666667px solid #392338;
+  border-top: 6.666666666666667px solid #392338;
   border-radius: 3px;
   transition: border-color 0.3s;
   cursor: pointer;
   pointer-events: auto;
 }
 .arrow:hover {
-  border-color: #ff947f;
+  border-color: #c1264e;
   transition: border-color 0.3s;
 }
 .circle {
@@ -162,7 +162,7 @@ body * {
   font-size: 2.3em;
   background-color: transparent;
   border: none;
-  color: #392338;
+  /* color: #392338; */
   cursor: pointer;
 }
 .circle li:nth-child(1) {
