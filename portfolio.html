@@ -1,71 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>FlexBox Exercise #3 - Image carousel / Responsive </title>
+    <title>Hannah </title>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="css/portfolio.css">
 </head>
 <body>
-    
-    
-        <div class="carousel__article">
-          <div class="carousel__nav"><span class="carousel__arrow" id="moveLeft">
-              <svg class="carousel__icon" width="24" height="24" viewbox="0 0 24 24">
-                <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
-              </svg></span><span class="carousel__arrow" id="moveRight">
-              <svg class="carousel__icon" width="24" height="24" viewbox="0 0 24 24">
-                <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
-              </svg></span></div>
-          <div class="carousel__article--carousel-item carousel-item--1">
-            <div class="carousel-item__image"></div>
-            <div class="carousel-item__info">
-              <div class="carousel-item__container">
-                <h1 class="carousel-item__title">Title for Carousel Article</h1>
-                <h2 class="carousel-item__subtitle">30 JANUARI 2019 </h2>
-                <p class="carousel-item__description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p><a class="carousel-item__btn" href="#">LIHAT SELENGKAPNYA </a>
+    <div id="scene">
+        <div id="left-zone">
+          <ul class="list">
+            <li class="item">
+              <input type="radio" id="radio_The garden strawberry (or simply strawberry /ˈstrɔːbᵊri/; Fragaria × ananassa) is a widely grown hybrid species of the genus Fragaria (collectively known as the strawberries)" name="basic_carousel" value="The garden strawberry (or simply strawberry /ˈstrɔːbᵊri/; Fragaria × ananassa) is a widely grown hybrid species of the genus Fragaria (collectively known as the strawberries)" checked="checked"/>
+              <label class="label_strawberry" for="radio_The garden strawberry (or simply strawberry /ˈstrɔːbᵊri/; Fragaria × ananassa) is a widely grown hybrid species of the genus Fragaria (collectively known as the strawberries)">strawberry</label>
+              <div class="content content_strawberry"><span class="picto"></span>
+                <h1>strawberry</h1>
+                <p>The garden strawberry (or simply strawberry /ˈstrɔːbᵊri/; Fragaria × ananassa) is a widely grown hybrid species of the genus Fragaria (collectively known as the strawberries)</p>
               </div>
-            </div>
-          </div>
-          <div class="carousel__article--carousel-item carousel-item--2">
-            <div class="carousel-item__image"></div>
-            <div class="carousel-item__info">
-              <div class="carousel-item__container">
-                <h2 class="carousel-item__subtitle">The big window </h2>
-                <h1 class="carousel-item__title">Minimal window</h1>
-                <p class="carousel-item__description">Clear Glass Window With Brown and White Wooden Frame iste natus error sit voluptatem accusantium doloremque laudantium.</p><a class="carousel-item__btn" href="#">Read the article</a>
+            </li>
+            <li class="item">
+              <input type="radio" id="radio_A banana is an edible fruit, botanically a berry, produced by several kinds of large herbaceous flowering plants in the genus Musa." name="basic_carousel" value="A banana is an edible fruit, botanically a berry, produced by several kinds of large herbaceous flowering plants in the genus Musa."/>
+              <label class="label_banana" for="radio_A banana is an edible fruit, botanically a berry, produced by several kinds of large herbaceous flowering plants in the genus Musa.">banana</label>
+              <div class="content content_banana"><span class="picto"></span>
+                <h1>banana</h1>
+                <p>A banana is an edible fruit, botanically a berry, produced by several kinds of large herbaceous flowering plants in the genus Musa.</p>
               </div>
-            </div>
-          </div>
-          <div class="carousel__article--carousel-item carousel-item--3">
-            <div class="carousel-item__image"></div>
-            <div class="carousel-item__info">
-              <div class="carousel-item__container">
-                <h2 class="carousel-item__subtitle">Tropical palms </h2>
-                <h1 class="carousel-item__title">Palms</h1>
-                <p class="carousel-item__description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p><a class="carousel-item__btn" href="#">Explore the palms</a>
+            </li>
+            <li class="item">
+              <input type="radio" id="radio_The apple tree (Malus domestica) is a deciduous tree in the rose family best known for its sweet, pomaceous fruit, the apple. It is cultivated worldwide as a fruit tree, and is the most widely grown species in the genus Malus." name="basic_carousel" value="The apple tree (Malus domestica) is a deciduous tree in the rose family best known for its sweet, pomaceous fruit, the apple. It is cultivated worldwide as a fruit tree, and is the most widely grown species in the genus Malus."/>
+              <label class="label_apple" for="radio_The apple tree (Malus domestica) is a deciduous tree in the rose family best known for its sweet, pomaceous fruit, the apple. It is cultivated worldwide as a fruit tree, and is the most widely grown species in the genus Malus.">apple</label>
+              <div class="content content_apple"><span class="picto"></span>
+                <h1>apple</h1>
+                <p>The apple tree (Malus domestica) is a deciduous tree in the rose family best known for its sweet, pomaceous fruit, the apple. It is cultivated worldwide as a fruit tree, and is the most widely grown species in the genus Malus.</p>
               </div>
-            </div>
-          </div>
-          <div class="carousel__article--carousel-itemcarousel-item--4">
-            <div class="carousel-item__image"></div>
-            <div class="carousel-item__info">
-              <div class="carousel-item__container">
-                <h2 class="carousel-item__subtitle">Beach </h2>
-                <h1 class="carousel-item__title">The beach </h1>
-                <p class="carousel-item__description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p><a class="carousel-item__btn" href="#">Explore the beach</a>
+            </li>
+            <li class="item">
+              <input type="radio" id="radio_The orange (specifically, the sweet orange) is the fruit of the citrus species Citrus × sinensis in the family Rutaceae." name="basic_carousel" value="The orange (specifically, the sweet orange) is the fruit of the citrus species Citrus × sinensis in the family Rutaceae."/>
+              <label class="label_orange" for="radio_The orange (specifically, the sweet orange) is the fruit of the citrus species Citrus × sinensis in the family Rutaceae.">orange</label>
+              <div class="content content_orange"><span class="picto"></span>
+                <h1>orange</h1>
+                <p>The orange (specifically, the sweet orange) is the fruit of the citrus species Citrus × sinensis in the family Rutaceae.</p>
               </div>
-            </div>
-          </div>
-          <div class="carousel-item carousel-item--5">
-            <div class="carousel-item__image"></div>
-            <div class="carousel-item__info">
-              <div class="carousel-item__container">
-                <h2 class="carousel-item__subtitle">The white building </h2>
-                <h1 class="carousel-item__title">White building</h1>
-                <p class="carousel-item__description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p><a class="carousel-item__btn" href="#">Read the article</a>
-              </div>
-            </div>
-          </div>
+            </li>
+          </ul>
         </div>
+        <div id="middle-border"></div>
+        <div id="right-zone"></div>
+      </div>
+    
+   
+     <script src="script.js"></script>
 </body>
 </html>
