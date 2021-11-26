@@ -3,8 +3,8 @@
 }
 
 body{
-	background: #92bde7;
-	color: #485e74;
+	background: white;
+	color: #333;
 	line-height: 1.6;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	padding: 1em;
@@ -30,7 +30,7 @@ ul{
 }
 
 .wrapper{
-	box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
+	box-shadow: 0 0 20px 0 #3D0459;
 } 
 
 .wrapper >*{
@@ -38,7 +38,7 @@ ul{
 }
 
 .company-info{
-	background: #c9e6ff;
+	background:  rgba(199, 152, 226, 0.8);
 	text-align: center;
 }
 
@@ -75,17 +75,17 @@ ul{
 .contact form button, .contact form input, .contact form textarea{
 	width: 100%;
 	padding: 1em;
-	border: 1px solid #c9e6ff;
+	border: 1px solid rgba(199, 152, 226, 0.8);
 }
 
 .contact form button{
-	background: #c9e6ff;
+	background:rgba(199, 152, 226, 0.8) ;
 	border: 0;
 	text-transform: uppercase;
 }
 
 .contact form button:hover, .contact form button:focus{
-	background: #92bde7;
+	background: #3D0459;
 	color: #fff;
 	outline:0;
 	transition: background-color 0.5 s ease-out;
