@@ -300,21 +300,22 @@
 
 
 </section>
-
 <!-- portfolio -->
 <section id="portfolio" >
-<!-- Carousel -->
-
+<div id="carousel">
+  <div id="carousel-container"></div>
+  <div id="carousel-bullets"></div>
+  <button id="carousel-left" onclick="changeSlide(-1)">
+    <i class="fas fa-angle-left"></i>
+  </button>
+  <button id="carousel-right" onclick="changeSlide(1)">
+    <i class="fas fa-angle-right"></i>
+  </button>
+</div>
 </section>
 <!-- testimonials -->
 <section id="testimonials" >
   <div class="container py-2">
-    <div class="row pb-4">
-        <div class="col-12 text-center">
-            <div class="display-3">Our Team</div>
-        </div>
-    </div>
-    <!-- cards -->
     <div class="row">
         <div class="col-lg-4 col-md-6 mb-4 pt-5">
             <div class="card shadow-sm border-0">
