@@ -1,40 +1,58 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    /*  */
+    /* background-color: #333;
+} */
+/* The <li> tag is used inside ordered lists(<ol>), unordered lists (<ul>), and in menu lists (<menu>). */
+li {
+    /* The float property is used for positioning and formatting content e.g. let an image float left to the text in a container. */
+    float: left;
 }
-.navbar-links {
-  display: flex;
-  list-style-type: none;
-  flex-direction: column;
-  background:#3D0459;
-  position: fixed;
-  top: -100%;
-    left: -100%;
-  width: 100vw;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-  text-transform: uppercase;
-  gap: 20px;
-  font-family: sans-serif;
-  transition: all 0.3s linear;
+/* The <a> tag defines a hyperlink, which is used to link from one page to another. */
+li a {
+    /* The display property specifies the display behavior (the type of rendering box) of an element. */
+    display: block;
+    
+    /*  */
+    color: white;
+    
+    /* The text-align property specifies the horizontal alignment of text in an element. */
+    text-align: center;
+    
+    /* The CSS padding properties are used to generate space around an element's content, inside of any defined borders. */
+    padding: 14px 16px;
+    
+    /* The text-decoration property specifies the decoration added to text */
+    text-decoration: none;
 }
-.navbar-links.active {
-  top: 0;
-  left: 0;
-  color: #3D0459;
-  background-color: gray;
+/* The :hover selector is used to select elements when you mouse over them. */
+li a:hover {
+    /*  */
+    background-color: #C6AC8F;
 }
-.navbar-button {
-  position: fixed;
-  top: 0;
-  right: 0;
-  z-index: 100;
-  font-size: 30px;
-  background: none;
-  border: none;
-  outline: none;
-  padding: 20px;
-  
+
+li a .active {
+    
+    background-color: #ffb6c1 ;}
+    
+#search{ 
+    
+    text-align: right;
+
+}
+
+/**/
+ a {
+display:inline-block;
+color:#F5E2BC;
+background-color: #3b4e68;
+text-decoration: none;
+padding: 8px 16px; 
+overflow: hidden;
+float: initial;
+text-align: center;
+}
+
+/*change hover color*/
+ a:hover {
+    background-color: #ef786d;
+    
 }
