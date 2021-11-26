@@ -171,7 +171,7 @@
     background-repeat: no-repeat;
   }
   body #scene #left-zone .list li.item input[type=radio] ~ .content.content_strawberry h1 {
-    color: #D64541;
+    color: rgba(0, 0, 0, 0.24);
   }
   body #scene #left-zone .list li.item input[type=radio] ~ .content.content_banana .picto {
     height: 100px;
@@ -219,8 +219,8 @@
             animation: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
   }
   body #scene #left-zone .list li.item input[type=radio]:checked ~ label.label_strawberry {
-    color: #D64541;
-    border-right: solid 4px #D64541;
+    color: rgba(0, 0, 0, 0.24);
+    border-right: solid 4px rgba(0, 0, 0, 0.24);
   }
   body #scene #left-zone .list li.item input[type=radio]:checked ~ label.label_banana {
     color: #F5D76E;
@@ -255,4 +255,10 @@
     background: #fff;
     height: 100%;
     flex-grow: 3;
+  }
+  body #scene{
+    box-shadow: 0 0 20px 0 #3D0459;
+    width:1160px ;
+    height:590px ;
+    border-radius: 5px;
   }
