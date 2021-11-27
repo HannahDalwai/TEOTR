@@ -30,34 +30,34 @@
 		</div>
 		<div class='contact'>
 			<h3>Get in touch</h3>
-			<form>
+			<form  target="_blank" class="was-validated" method="post"  action="https://formspree.io/f/xqkwonnz">
 				<p>
-					<label>Name</label>
-					<input type="text" name='name'> 
+					<label for="validationTextarea"> Name</label>
+					<input type="text" name='name'class="form-control is-invalid" id="validationTextarea" placeholder="Insert Name Here" required> 
 				</p>
 
 				<p>
-					<label>Company</label>
+					<label >Company</label>
 					<input type="text" name='company'> 
 				</p>
 
 				<p>
-					<label>Email Adress</label>
-					<input type="email" name='email'> 
+					<label  for="validationTextarea">Email Address</label>
+					<input type="email" name='email'  class="form-control is-invalid" id="validationTextarea" placeholder="Insert Email Address Here" required> 
 				</p>
 
 				<p>
-					<label>Phone Number</label>
+					<label for="validationTextarea">Phone Number</label>
 					<input type="text" name='phone'> 
 				</p>
 
 				<p class='full'>
-					<label>Message</label>
-					<textarea name="message" rows="5"></textarea> 
+					<label for="validationTextarea">Message</label>
+					<textarea name="message" rows="5"class="form-control is-invalid" id="validationTextarea" placeholder="Insert Message Here" required></textarea> 
 				</p>
 
 				<p class='full'>
-					<button>Submit</button>
+					<button type="submit">Submit</button>
 				</p>
 			</form>
 		</div>
