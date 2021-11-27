@@ -1,0 +1,11 @@
+.navbar{
+    background-color: whitesmoke;
+    color: rgba(199, 152, 226, 0.8);
+}
+:hover{
+   color: #333 ;
+ 
+}
+:active{
+    color: #3D0459;
+}
