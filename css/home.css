@@ -5,7 +5,7 @@ body {
   line-height: 1.7;
   color: #eee;
 }
-
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
 .header {
   height: 100vh;
   background-image: 
