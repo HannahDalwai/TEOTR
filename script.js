@@ -1,11 +1,7 @@
-// navbar
-
-// end
 // button
 if (document.body.animate) {
   document.querySelector('#button').addEventListener('click', pop);
 }
-
 function pop (e) {
   // Quick check if user clicked the button using a keyboard
   if (e.clientX === 0 && e.clientY === 0) {
@@ -25,7 +21,6 @@ function pop (e) {
     }
   }
 }
-
 function createParticle (x, y) {
   const particle = document.createElement('particle');
   document.body.appendChild(particle);

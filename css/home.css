@@ -1,87 +1,316 @@
-body {
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.7;
-  color: #eee;
+
+h1{
+  margin-left: 30%;
 }
-@import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
-.header {
-  height: 100vh;
-  background-image: 
-  linear-gradient(to right bottom, 
-   rgba(199, 152, 226, 0.8),
-   #3D0459),
-   url('https://ibb.co/cY0WhfY');
+#NAME{ margin-left: 32%;}
+
+
+
+
+/* ------------------------------ */
+  #line {
+    transform: scaleX(0);
+    transform-origin: 50% 100%;
+    -webkit-animation: grow 1s forwards;
+            animation: grow 1s forwards;
+  }
   
-background-size: cover;
-  background-position: top;
-  position: relative;
-
-  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-}
-
-.brand-box {
-  position: absolute;
-  top: 40px;
-  left: 40px;
-}
-
-.brand { font-size: 20px; }
-
-.text-box {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.heading-primary {
-  color: #fff;
-  text-transform: uppercase;
-
-  backface-visibility: hidden;
-  margin-bottom: 30px;
-}
-
-.heading-primary-main {
-  display: block;
-  font-size: 26px;
-  font-weight: 400;
-  letter-spacing: 5px;
-}
-
-.heading-primary-sub {
-  display: block;
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: 7.4px;
-}
-
-.btn:link,
-.btn:visited {
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 10px 20px;
-  display: inline-block;
-  border-radius: 100px;
-  transition: all .2s;
-  position: relative;
-}
-
-.btn:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-.btn:active {
-  transform: translateY(-1px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-}
-
-.btn-white {
-  background-color: #fff;
-  color: #777;
-font-size: 14px;
-}
+  .draw {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 4;
+    -webkit-animation: draw 3s 2s forwards, fill 1s 2.5s forwards;
+            animation: draw 3s 2s forwards, fill 1s 2.5s forwards;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  
+  .page .frame {
+    fill: #ccc;
+    stroke: none;
+  }
+  
+  .page .background {
+    fill: white;
+    stroke: none;
+  }
+  
+  .page .background,
+  .page .frame,
+  .page rect {
+    transform: scaleY(0);
+    transform-origin: 50% 100%;
+    -webkit-animation: grow 1s 1s forwards;
+            animation: grow 1s 1s forwards;
+  }
+  
+  .page-center .content-group {
+    -webkit-animation: contentScroll 8s 3.5s infinite;
+            animation: contentScroll 8s 3.5s infinite;
+  }
+  
+  .page-sidebar .content-group {
+    -webkit-animation: contentScrollTwo 8s 4s infinite;
+            animation: contentScrollTwo 8s 4s infinite;
+  }
+  
+  .page-form .outline-container {
+    fill: #ccc;
+  }
+  
+  .page-form .field-content {
+    -webkit-animation: draw 3s 2s forwards, fillTwo 1s 2.5s forwards;
+            animation: draw 3s 2s forwards, fillTwo 1s 2.5s forwards;
+  }
+  
+  .page-form .field {
+    -webkit-animation: draw 3s 2s forwards, fill 1s 2.5s forwards, highlight 1s 3.5s;
+            animation: draw 3s 2s forwards, fill 1s 2.5s forwards, highlight 1s 3.5s;
+  }
+  
+  .page-form .field-two {
+    -webkit-animation: draw 3s 2s forwards, fill 1s 2.5s forwards, highlight 1s 4.5s;
+            animation: draw 3s 2s forwards, fill 1s 2.5s forwards, highlight 1s 4.5s;
+  }
+  
+  .page-form .button-container .button {
+    -webkit-animation: draw 3s 2s forwards, fill 1s 2.5s forwards, highlight 1s 5.5s;
+            animation: draw 3s 2s forwards, fill 1s 2.5s forwards, highlight 1s 5.5s;
+  }
+  
+  .page-form .check-mark {
+    fill: #10B500;
+    -webkit-animation: none;
+            animation: none;
+  }
+  
+  .page-slider .image-slider-group {
+    -webkit-animation: sliderScroll 8s 3.5s infinite;
+            animation: sliderScroll 8s 3.5s infinite;
+  }
+  
+  .page-hero .images-container {
+    -webkit-animation: heroImagesOne 6s 3.5s infinite;
+            animation: heroImagesOne 6s 3.5s infinite;
+  }
+  
+  .page-hero .images-container-two {
+    -webkit-animation: heroImagesTwo 6s 3.5s infinite;
+            animation: heroImagesTwo 6s 3.5s infinite;
+  }
+  
+  @-webkit-keyframes grow {
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes grow {
+    100% {
+      transform: scale(1);
+    }
+  }
+  @-webkit-keyframes draw {
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+  @keyframes draw {
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+  @-webkit-keyframes fill {
+    100% {
+      fill: #ccc;
+      stroke-width: 0;
+    }
+  }
+  @keyframes fill {
+    100% {
+      fill: #ccc;
+      stroke-width: 0;
+    }
+  }
+  @-webkit-keyframes fillTwo {
+    100% {
+      fill: white;
+      stroke-width: 0;
+    }
+  }
+  @keyframes fillTwo {
+    100% {
+      fill: white;
+      stroke-width: 0;
+    }
+  }
+  @-webkit-keyframes contentScroll {
+    50% {
+      transform: translateY(-165px);
+    }
+  }
+  @keyframes contentScroll {
+    50% {
+      transform: translateY(-165px);
+    }
+  }
+  @-webkit-keyframes contentScrollTwo {
+    50% {
+      transform: translateY(-140px);
+    }
+  }
+  @keyframes contentScrollTwo {
+    50% {
+      transform: translateY(-140px);
+    }
+  }
+  @-webkit-keyframes highlight {
+    0% {
+      fill: #ccc;
+    }
+    50% {
+      fill: #10B500;
+    }
+    100% {
+      fill: #ccc;
+    }
+  }
+  @keyframes highlight {
+    0% {
+      fill: #ccc;
+    }
+    50% {
+      fill: #10B500;
+    }
+    100% {
+      fill: #ccc;
+    }
+  }
+  @-webkit-keyframes fadeIn {
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fadeIn {
+    100% {
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes fadeOut {
+    100% {
+      opacity: 0;
+    }
+  }
+  @keyframes fadeOut {
+    100% {
+      opacity: 0;
+    }
+  }
+  @-webkit-keyframes sliderScroll {
+    0% {
+      transform: translateX(0);
+    }
+    20% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-13.99%);
+    }
+    45% {
+      transform: translateX(-13.99%);
+    }
+    50% {
+      transform: translateX(-27.95%);
+    }
+    70% {
+      transform: translateX(-27.95%);
+    }
+    75% {
+      transform: translateX(13.95%);
+    }
+    95% {
+      transform: translateX(13.95%);
+    }
+  }
+  @keyframes sliderScroll {
+    0% {
+      transform: translateX(0);
+    }
+    20% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-13.99%);
+    }
+    45% {
+      transform: translateX(-13.99%);
+    }
+    50% {
+      transform: translateX(-27.95%);
+    }
+    70% {
+      transform: translateX(-27.95%);
+    }
+    75% {
+      transform: translateX(13.95%);
+    }
+    95% {
+      transform: translateX(13.95%);
+    }
+  }
+  @-webkit-keyframes heroImagesOne {
+    0% {
+      transform: translateX(0);
+    }
+    10%, 50% {
+      transform: translateX(-459px);
+    }
+    60%, 100% {
+      transform: translateX(0);
+    }
+  }
+  @keyframes heroImagesOne {
+    0% {
+      transform: translateX(0);
+    }
+    10%, 50% {
+      transform: translateX(-459px);
+    }
+    60%, 100% {
+      transform: translateX(0);
+    }
+  }
+  @-webkit-keyframes heroImagesTwo {
+    0% {
+      transform: translateX(459px);
+    }
+    10%, 50% {
+      transform: translateX(0);
+    }
+    60%, 100% {
+      transform: translateX(459px);
+    }
+  }
+  @keyframes heroImagesTwo {
+    0% {
+      transform: translateX(459px);
+    }
+    10%, 50% {
+      transform: translateX(0);
+    }
+    60%, 100% {
+      transform: translateX(459px);
+    }
+  }
+  #form-sent {
+    opacity: 0;
+    transition: opacity 1000ms;
+    -webkit-animation: fadeIn 1s 6.5s forwards, fadeOut 2s 10s forwards;
+            animation: fadeIn 1s 6.5s forwards, fadeOut 2s 10s forwards;
+  }
+  
+  .is-hidden {
+    opacity: 0;
+  }
