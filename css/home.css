@@ -11,17 +11,14 @@ body {
   background-image: 
   linear-gradient(to right bottom, 
    rgba(199, 152, 226, 0.8),
-   #3D0459);
-  
+   #3D0459),
+   url('https://ibb.co/cY0WhfY');
   
 background-size: cover;
   background-position: top;
   position: relative;
 
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-}
-img{
-  
 }
 
 .brand-box {
