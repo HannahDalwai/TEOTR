@@ -38,7 +38,7 @@ section {
   }
   .timeline::before {
     content: "";
-    background: #C5CAE9;
+    background: #c9c3e6;
     width: 5px;
     height: 95%;
     position: absolute;
@@ -98,7 +98,7 @@ section {
   .timeline-img {
     width: 30px;
     height: 30px;
-    background: #3F51B5;
+    background: #6762a6;
     border-radius: 50%;
     position: absolute;
     left: 50%;
@@ -160,7 +160,7 @@ section {
   }
   
   .date {
-    background: #FF4081;
+    background: #6762a6;
     display: inline-block;
     color: #FFFFFF;
     padding: 10px;

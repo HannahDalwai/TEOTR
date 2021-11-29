@@ -31,7 +31,8 @@ ul{
 }
 
 .wrapper{
-	box-shadow: 0 0 20px 0 #3D0459;
+	box-shadow: 0 0 20px 0 #6762a6;
+	margin-left: 50px;
 } 
 
 .wrapper >*{
@@ -39,18 +40,20 @@ ul{
 }
 
 .company-info{
-	background:  #3D0459;
+	background:  #c9c3e6;
 	text-align: center;
 	color: whitesmoke;
+	text-align: center;
 }
 
 .company-info h3, .company-info ul{
-	text-align> center;
+	text-align: center;
 	margin: 0 0 1rem 0;
 }
 
 .contact{
 	background: #f9feff;
+	text-align: center;
 }
 
 /* FORM CONTACTS
@@ -77,17 +80,18 @@ ul{
 .contact form button, .contact form input, .contact form textarea{
 	width: 100%;
 	padding: 1em;
-	border: 1px solid #3D0459;
+	border: 1px solid #;
+
 }
 
 .contact form button{
-	background:rgba(199, 152, 226, 0.8) ;
+	background:#6762a6 ;
 	border: 0;
 	text-transform: uppercase;
 }
 
 .contact form button:hover, .contact form button:focus{
-	background: #3D0459;
+	background: #c9c3e6;
 	color: #fff;
 	outline:0;
 	transition: background-color 0.5 s ease-out;
@@ -106,6 +110,12 @@ ul{
 
 	.company-info h3, .company-info ul, .brand{
 		text-align: left;
+	}
+}
+/* LARGE SCREENS */
+@media(max-width:700px){
+	img{
+		display: none;
 	}
 }
 
