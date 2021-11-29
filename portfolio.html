@@ -29,57 +29,106 @@
 </nav>
  
     <!-- content -->
-    <h2>scale</h2>
-    <ul class="carousel my-carousel carousel--scale">
-      <input class="carousel__activator" type="radio" id="P" name="scale" checked="checked"/>
-      <input class="carousel__activator" type="radio" id="Q" name="scale"/>
-      <input class="carousel__activator" type="radio" id="R" name="scale"/>
-      <input class="carousel__activator" type="radio" id="S" name="scale"/>
-      <input class="carousel__activator" type="radio" id="T" name="scale"/>
-      <div class="carousel__controls">
-        <label class="carousel__control carousel__control--backward" for="T"></label>
-        <label class="carousel__control carousel__control--forward" for="Q"></label>
+    <section id="portfolio">
+      <div class="container">
+          <div class="carousel">
+              <input type="radio" name="slides" checked="checked" id="slide-1">
+              <input type="radio" name="slides" id="slide-2">
+              <input type="radio" name="slides" id="slide-3">
+              <input type="radio" name="slides" id="slide-4">
+              <input type="radio" name="slides" id="slide-5">
+              <input type="radio" name="slides" id="slide-6">
+              <ul class="carousel__slides">
+                  <li class="carousel__slide">
+                      <figure>
+                          <div>
+                              <img src="https://picsum.photos/id/1041/800/450" alt="">
+                          </div>
+                          <figcaption>
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                              <span class="credit">Photo: Tim Marshall</span>
+                          </figcaption>
+                      </figure>
+                  </li>
+                  <li class="carousel__slide">
+                      <figure>
+                          <div>
+                              <img src="https://picsum.photos/id/1043/800/450" alt="">
+                          </div>
+                          <figcaption>
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                              <span class="credit">Photo: Christian Joudrey</span>                            
+                          </figcaption>
+                      </figure>
+                  </li>
+                  <li class="carousel__slide">
+                      <figure>
+                          <div>
+                              <img src="https://picsum.photos/id/1044/800/450" alt="">
+                          </div>
+                          <figcaption>
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                              <span class="credit">Photo: Steve Carter</span>                            
+                          </figcaption>
+                      </figure>
+                  </li>
+                  <li class="carousel__slide">
+                      <figure>
+                          <div>
+                              <img src="https://picsum.photos/id/1045/800/450" alt="">
+                          </div>
+                          <figcaption>
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                              <span class="credit">Photo: Aleksandra Boguslawska</span>                            
+                          </figcaption>
+                      </figure>
+                  </li>
+                  <li class="carousel__slide">
+                      <figure>
+                          <div>
+                              <img src="https://picsum.photos/id/1049/800/450" alt="">
+                          </div>
+                          <figcaption>
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                              <span class="credit">Photo: Rosan Harmens</span>                            
+                          </figcaption>
+                      </figure>
+                  </li>
+                  <li class="carousel__slide">
+                      <figure>
+                          <div>
+                              <img src="https://picsum.photos/id/1052/800/450" alt="">
+                          </div>
+                          <figcaption>
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                              <span class="credit">Photo: Annie Spratt</span>                            
+                          </figcaption>
+                      </figure>
+                  </li>
+              </ul>    
+              <ul class="carousel__thumbnails">
+                  <li>
+                      <label for="slide-1"><img src="https://picsum.photos/id/1041/150/150" alt=""></label>
+                  </li>
+                  <li>
+                      <label for="slide-2"><img src="https://picsum.photos/id/1043/150/150" alt=""></label>
+                  </li>
+                  <li>
+                      <label for="slide-3"><img src="https://picsum.photos/id/1044/150/150" alt=""></label>
+                  </li>
+                  <li>
+                      <label for="slide-4"><img src="https://picsum.photos/id/1045/150/150" alt=""></label>
+                  </li>
+                  <li>
+                      <label for="slide-5"><img src="https://picsum.photos/id/1049/150/150" alt=""></label>
+                  </li>
+                  <li>
+                      <label for="slide-6"><img src="https://picsum.photos/id/1052/150/150" alt=""></label>
+                  </li>
+              </ul>
+          </div>
       </div>
-      <div class="carousel__controls">
-        <label class="carousel__control carousel__control--backward" for="P"></label>
-        <label class="carousel__control carousel__control--forward" for="R"></label>
-      </div>
-      <div class="carousel__controls">
-        <label class="carousel__control carousel__control--backward" for="Q"></label>
-        <label class="carousel__control carousel__control--forward" for="S"></label>
-      </div>
-      <div class="carousel__controls">
-        <label class="carousel__control carousel__control--backward" for="R"></label>
-        <label class="carousel__control carousel__control--forward" for="T"></label>
-      </div>
-      <div class="carousel__controls">
-        <label class="carousel__control carousel__control--backward" for="S"></label>
-        <label class="carousel__control carousel__control--forward" for="P"></label>
-      </div>
-      <li class="carousel__slide">
-        <h1>P</h1>
-      </li>
-      <li class="carousel__slide">
-        <h1>Q</h1>
-      </li>
-      <li class="carousel__slide">
-        <h1>R</h1>
-      </li>
-      <li class="carousel__slide">
-        <h1>S</h1>
-      </li>
-      <li class="carousel__slide">
-        <h1>T</h1>
-      </li>
-      <div class="carousel__indicators">
-        <label class="carousel__indicator" for="P"></label>
-        <label class="carousel__indicator" for="Q"></label>
-        <label class="carousel__indicator" for="R"></label>
-        <label class="carousel__indicator" for="S"></label>
-        <label class="carousel__indicator" for="T"></label>
-      </div>
-    </ul>
-  </div>
+  </section>
 
    <script src="script"></script>
     <script src="https://cdn.jsdelivr.net/npm/ja@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
