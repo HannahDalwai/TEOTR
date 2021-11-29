@@ -1,8 +1,8 @@
 
-#color{
+/* #color{
   background-color: #3D0459 ;
   color: white;
-}
+} */
 
 
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
@@ -15,7 +15,7 @@ body {
   font-weight: initial;
 }
 .light {
-  background: #f3f5f7;
+  /* background: #f3f5f7; */
 }
 
 a, a:hover {
