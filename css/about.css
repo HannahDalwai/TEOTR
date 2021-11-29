@@ -23,6 +23,8 @@
 .container .card{
   position: relative;
   cursor: pointer;
+  margin-right: 30px;
+  padding: 10px;
 }
 .container .card .face{
   width: 300px;
@@ -111,7 +113,7 @@
   -ms-flex-order: 1;
   order: 1;
   display: block;
-  padding: 1px 10px
+  padding: 1px 10px ;
   margin-right: 0.2rem;
   cursor: pointer;
   background: #90CAF9;
