@@ -106,7 +106,7 @@ section {
     margin-left: -15px;
   }
   
-  a {
+  /* a {
     background: #3F51B5;
     color: #FFFFFF;
     padding: 8px 20px;
@@ -117,7 +117,7 @@ section {
     display: inline-block;
     border-radius: 2px;
     box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.6);
-  }
+  } */
   a:hover, a:active, a:focus {
     background: #32408f;
     color: #FFFFFF;
@@ -137,6 +137,7 @@ section {
   .timeline-item .timeline-img-header {
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), center center no-repeat;
     background-size: cover;
+    background-image: image("image/");
   }
   
   .timeline-img-header {
