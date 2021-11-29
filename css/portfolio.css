@@ -1,6 +1,8 @@
 section {
-    background: #F4F4F4;
-    padding: 100px;
+    
+    padding-top: 50px;
+    padding-left: 100px;
+    margin-left: 200px;
   }
   
   .container {
@@ -12,7 +14,7 @@ section {
   .carousel {
     display: block;
     text-align: left;
-    position: relative;
+    /* position: relative; */
     margin-bottom: 22px;
   }
   .carousel > input {
