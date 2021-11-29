@@ -42,7 +42,7 @@
   transform: translateY(100px);
 }
 .container .card:hover .face.face1{
-  background: #3D0459;
+  background: #6762a6;
   transform: translateY(0);
 }
 .container .card .face.face1 .content{
@@ -117,7 +117,7 @@
   padding: 1px 10px ;
   margin-right: 0.2rem;
   cursor: pointer;
-  background: #90CAF9;
+  background: #c9c3e6;
   font-weight: bold;
   -webkit-transition: background ease 0.2s;
   transition: background ease 0.2s;

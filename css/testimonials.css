@@ -306,10 +306,10 @@ a, a:hover {
   }
 
   .yellow::before {
-    background-image: linear-gradient(-80deg, rgba(199, 152, 226, 0.8), transparent 50%);
+    background-image: linear-gradient(-80deg, #6762a6, transparent 50%);
   }
 
   .yellow:nth-child(2n)::before {
-    background-image: linear-gradient(80deg,rgba(199, 152, 226, 0.8) , transparent 50%);
+    background-image: linear-gradient(80deg, #6762a6 , tansparent 50%);
   }
 }

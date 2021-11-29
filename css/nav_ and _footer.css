@@ -6,11 +6,10 @@
    color: #333 ;
  
 }
-:active{
-    color: #6e2f8d;
+
+nav .nav nav-pills{
+    background-color: #6762a6;
 }
-
-
 
 body
 {
@@ -18,9 +17,9 @@ body
   padding: 0;
   
   /* make it look decent enough */
-  background: #232323;
+  /* background: #232323;
   color: #cdcdcd;
-  font-family: "Avenir Next", "Avenir", sans-serif;
+  font-family: "Avenir Next", "Avenir", sans-serif; */
 }
 
 #menuToggle
@@ -39,16 +38,18 @@ body
 #menuToggle a
 {
   text-decoration: none;
-  color: #232323;
+  color: #6762a6;
   
-  transition: color 0.3s ease;
+  transition: color 0.2s ease;
 }
 
 #menuToggle a:hover
 {
-  color: tomato;
+  color: #c9c3e6;
 }
-
+.nav-link.active{
+    color: #6762a6
+}
 
 #menuToggle input
 {

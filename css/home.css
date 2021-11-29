@@ -1,6 +1,7 @@
 
 h1{
   margin-left: 30%;
+  color: #6762a6;
 }
 #NAME{ margin-left: 43%;}
 
@@ -81,7 +82,7 @@ h1{
   }
   
   .page-form .check-mark {
-    fill: #10B500;
+    fill: #c9c3e6;
     -webkit-animation: none;
             animation: none;
   }
@@ -171,7 +172,7 @@ h1{
       fill: #ccc;
     }
     50% {
-      fill: #10B500;
+      fill: #6762a6;
     }
     100% {
       fill: #ccc;
@@ -182,7 +183,7 @@ h1{
       fill: #ccc;
     }
     50% {
-      fill: #10B500;
+      fill: #6762a6;
     }
     100% {
       fill: #ccc;
